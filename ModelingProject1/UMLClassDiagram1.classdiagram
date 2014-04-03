@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="e9707844-1cdb-4cbf-ba14-c148daa929ab" name="UMLClassDiagram1" linkedPackageId="520a3e38-dd5e-4431-b08e-1123429883de" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2200ad32-48bb-49b8-8592-b7da28aa6a45" name="MyForm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0d926905-2afc-452f-8a3d-2e5bbdcd8aff" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="520a3e38-dd5e-4431-b08e-1123429883de" name="ModelingProject1">
+    <elementDefinition Id="f812a592-9181-453c-9711-c7f16b5c1d37" />
+    <profileInstances>
+      <packageHasProfileInstances Id="aeaa8f73-80c7-46cb-a145-ce35747dc5a0">
+        <profileInstance Id="7effa697-dc56-43ba-8ed9-bf479e51c572" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="05069ae2-eb7e-44e7-9f4b-d937a60d81b3">
+        <profileInstance Id="5c20df46-4df2-4076-92b3-82cf2fbc573c" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

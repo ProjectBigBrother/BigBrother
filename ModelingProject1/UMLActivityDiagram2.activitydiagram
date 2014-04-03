@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="7a40669e-b9ed-4ca3-8005-a7a63825b07e" name="Activity2" linkedPackageId="c65ab3b6-c10c-450a-a04e-ade583b3d97d" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="13f98e59-c658-4148-9498-9e514919e973">
+      <profileInstance Id="e64e9e32-1186-4a46-ab55-0a12804c380a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9cb7b529-a2c6-4d88-82d1-cc7f18f3e330">
+      <profileInstance Id="4ac550dc-443c-41d8-b150-c47570645a48" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="8cc17be5-4553-4796-96be-6de1c591aa32" name="Activity2" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="47a892b8-640d-49f8-b7ab-bcad2e09e091" />
+        <nodes>
+          <initialNode Id="1f51d578-567b-4433-b26d-c5ebca1f8817" name="Initial1" isLeaf="false">
+            <elementDefinition Id="afbaec0d-4373-4b7b-9779-caf123775a9a" />
+            <flowNodeTargets>
+              <controlFlow Id="d199da14-f1a1-434a-b4a2-1499a0bca248" isLeaf="false">
+                <opaqueActionMoniker Id="93e52ae7-e705-415a-8256-2f59cfb8c749" LastKnownName="Select Mode" />
+                <elementDefinition Id="bc99d744-da54-47d3-b2c2-7593d67eff5f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="93e52ae7-e705-415a-8256-2f59cfb8c749" name="Select Mode" isLeaf="false">
+            <elementDefinition Id="4d02f968-95d2-4ddb-a100-b9f188972ea5" />
+            <flowNodeTargets>
+              <controlFlow Id="5b68cc1e-fe5e-4db3-ad07-36128d95a60a" isLeaf="false">
+                <decisionNodeMoniker Id="d74f50c5-89e2-46e5-9648-457e4d0bd9ab" LastKnownName="Decision1" />
+                <elementDefinition Id="56e3e45a-0009-4606-ae35-ac5123952a91" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="d74f50c5-89e2-46e5-9648-457e4d0bd9ab" name="Decision1" isLeaf="false">
+            <elementDefinition Id="e69dfd94-f7aa-4452-947e-ee89f8956957" />
+          </decisionNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="c65ab3b6-c10c-450a-a04e-ade583b3d97d" name="ModelingProject1">
+    <elementDefinition Id="f812a592-9181-453c-9711-c7f16b5c1d37" />
+  </package>
+</activityRootModel>
